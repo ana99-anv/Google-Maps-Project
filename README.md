@@ -328,7 +328,7 @@ Observed versus predicted counterfactual outcomes# Batch-Analyse
 
 ## Explainability
 
-- SHAP# Visualisation
+- SHAP Visualisation
 
 - Plotly 
 - Matplotlib 
