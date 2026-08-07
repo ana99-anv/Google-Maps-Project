@@ -56,19 +56,16 @@ This project uses causal inference methods to estimate the **counterfactual outc
 The project follows an end-to-end causal inference workflow:
 
 
-Data
- ↓
-Prepare
- ↓
-Experiment Design
- ↓
-Causal Modeling
- ↓
-Impact Measurement
- ↓
-Deep Dive Analysis
- ↓
-Decision Support
+| Stage | Approach |
+|---|---|
+| **Data Preparation** | Clean logistics records and engineer relevant operational features |
+| **Treatment Design** | Define the new ETA algorithm as treatment and the existing approach as control |
+| **Confounding Control** | Use Propensity Score Matching to create comparable groups |
+| **Causal Estimation** | Estimate the Average Treatment Effect on the Treated (ATT) |
+| **Statistical Validation** | Evaluate t-statistics, p-values, and 95% confidence intervals |
+| **HTE Analysis** | Measure how treatment effects vary across traffic, weather, and route risk |
+| **Counterfactual Analysis** | Estimate shipment-level outcomes under alternative treatment scenarios |
+| **Decision Support** | Translate causal findings into deployment recommendations |
 
 
 ---
