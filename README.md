@@ -1,5 +1,23 @@
 #  Google Maps ETA Optimization using Causal Inference
 
+
+
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![SciPy](https://img.shields.io/badge/SciPy-Statistics-8CAAE6?logo=scipy&logoColor=white)](https://scipy.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?logo=plotly&logoColor=white)](https://plotly.com/)
+[![SHAP](https://img.shields.io/badge/SHAP-Explainability-orange)](https://shap.readthedocs.io/)
+
+###  Live Demo
+
+**[Open the Causal Inference ETA Optimization Dashboard](https://app-maps-project-gamlcxsratb7r7eci4cknt.streamlit.app/)**
+
+> Interactive Streamlit application for exploring treatment effects, counterfactual outcomes, and ETA optimization insights.
+
+
 ##  Project Overview
 
 Modern navigation and logistics platforms constantly improve their Estimated Time of Arrival (ETA) algorithms. But just because delivery times improve after implementing a new algorithm doesn't mean the algorithm caused the improvement.
