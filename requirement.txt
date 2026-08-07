@@ -8,5 +8,5 @@ xgboost
 econml
 shap
 matplotlib
-plotly
+plotly>=5.0
 joblib
