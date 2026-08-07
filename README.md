@@ -18,6 +18,8 @@
 > Interactive Streamlit application for exploring treatment effects, counterfactual outcomes, and ETA optimization insights.
 
 
+---
+
 ##  Project Overview
 
 Modern navigation and logistics platforms constantly improve their Estimated Time of Arrival (ETA) algorithms. But just because delivery times improve after implementing a new algorithm doesn't mean the algorithm caused the improvement.
@@ -45,7 +47,9 @@ A simple before-and-after comparison can be misleading because delivery performa
 This project uses causal inference methods to estimate the **counterfactual outcome**:
 >  What would the delivery performance look like if we did not deploy the new ETA algorithm?
 
+
 ---
+
 
 #  Solution Approach
 
@@ -66,7 +70,9 @@ Deep Dive Analysis
  ↓
 Decision Support
 
+
 ---
+
 
 
 # 📸 Application Preview
@@ -78,7 +84,9 @@ Decision Support
 The dashboard provides an overview of the experiment, including shipment volume,
 treatment allocation, ATT, and statistical significance.
 
+
 ---
+
 
 ##  Causal Analysis
 
@@ -87,7 +95,9 @@ treatment allocation, ATT, and statistical significance.
 The causal analysis page presents the estimated treatment effect, t-statistic,
 p-value, and 95% confidence interval.
 
+
 ---
+
 
 ##  Counterfactual Explorer
 
@@ -96,7 +106,9 @@ p-value, and 95% confidence interval.
 The counterfactual explorer allows users to compare observed ETA variation with
 the estimated outcome under the new ETA optimization algorithm.
 
+
 ---
+
 
 ##  Treatment Simulator
 
@@ -105,7 +117,9 @@ the estimated outcome under the new ETA optimization algorithm.
 The treatment simulator allows users to explore how algorithm performance varies
 under different traffic, weather, and route-risk conditions.
 
+
 ---
+
 
 ## About the Project
 
@@ -114,7 +128,9 @@ under different traffic, weather, and route-risk conditions.
 The About page documents the dataset, causal inference methodology, technology
 stack, business impact, and skills demonstrated in the project.
 
+
 ---
+
 
 #  Dataset
 
@@ -136,7 +152,9 @@ stack, business impact, and skills demonstrated in the project.
 | Business | Shipping cost, lead time |
 | Outcome | ETA variation |
 
+
 ---
+
 
 #  Causal Inference Methodology
 
@@ -150,7 +168,9 @@ Control = Existing ETA Algorithm
 
 The purpose was to estimate if the new algorithm decreased ETA variance.
 
+
 ---
+
 
 ## 2. Propensity Score Matching (PSM)
 
@@ -165,7 +185,9 @@ Variables matched on included:
 
 This creates a more balanced comparison between groups.
 
+
 ---
+
 
 ## 3. Average Treatment Effect on the Treated (ATT)
 
@@ -180,7 +202,9 @@ The analysis estimated:
 - Statistical significance
 - Confidence intervals
 
+
 ---
+
 
 ## 4. Statistical Testing
 The project assesses the statistical significance of the observed improvement by:
@@ -190,7 +214,9 @@ The project assesses the statistical significance of the observed improvement by
 - P-values
 - 95% confidence intervals
 
+
 ---
+
 
 ## 5. Heterogeneous Treatment Effects (HTE)
 
@@ -204,7 +230,9 @@ This helps answer:
 
 > "Where should the ETA algorithm be deployed first?"
 
+
 ---
+
 
 ## 6. Counterfactual Analysis
 
@@ -222,7 +250,9 @@ What would have happened without the intervention?
 
 This allows for impact analysis at the shipment level.
 
+
  --- 
+
 
  #  Key Outcomes
 
@@ -240,7 +270,6 @@ ATT (Average Treatment Effect on Treated): -0.625 hours
 Results show that the ETA optimization algorithm provided a statistically significant improvement in delivery reliability.
 
  
-
 --- 
 
 
@@ -271,10 +300,10 @@ Observed versus predicted counterfactual outcomes# Batch-Analyse
 - Analyze distribution of shipments
 - Download processed data
 
+
  --- 
 
  
-
 #   Tech Stack 
 
 ## Coding
@@ -309,8 +338,8 @@ Observed versus predicted counterfactual outcomes# Batch-Analyse
 
  - Streamlit 
 
---- 
 
+--- 
 
 
 #   Project Layout
@@ -328,7 +357,11 @@ Observed versus predicted counterfactual outcomes# Batch-Analyse
 | `README.md` | Project documentation |
 
 
+--- 
+
+
 # Business Impact
+
 
 This project demonstrates how causal inference can support operational decisions by:
 
@@ -337,6 +370,7 @@ This project demonstrates how causal inference can support operational decisions
 - Identifying high-value deployment scenarios
 - Supporting data-driven rollout decisions
 
+
 Instead of asking:
 
 "Did delivery times improve?"
@@ -344,6 +378,8 @@ Instead of asking:
 The framework answers:
 
 "Did the new ETA algorithm cause delivery improvement?"
+
+--- 
 
 
 # Skills Demonstrated
